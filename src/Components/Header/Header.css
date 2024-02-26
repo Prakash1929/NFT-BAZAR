@@ -1,0 +1,113 @@
+.navfont {
+  font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: 24px;
+}
+.row {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+nav {
+  background-color: #1f2937;
+  padding: 12px;
+}
+
+.nav-bar > ul,
+.sm-links > ul {
+  list-style-type: none;
+}
+.nav-bar > ul {
+  text-align: left;
+}
+.nav-bar > ul > li {
+  position: relative;
+}
+
+.nav-bar > ul > li > a {
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+.nav-bar > ul > li > a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: all ease 1s;
+}
+.nav-bar > ul > li > a:hover {
+  color: orangered;
+  transition: all ease 1s;
+  cursor: pointer;
+}
+
+.nav-bar > ul > li > a:hover::after {
+  width: 100%;
+  background-color: white;
+}
+.sm-links > ul {
+  text-align: right;
+}
+.nav-bar > ul > li,
+.sm-links > ul > li {
+  display: inline-block;
+  margin: 10px;
+}
+.sm-links > ul > li > a {
+  background: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  padding: 8px;
+  border-radius: 31%;
+  color: white;
+}
+.sm-links > ul > li > a:hover {
+  background: linear-gradient(yellow, red, blue);
+  transition-duration: 0.5s;
+}
+.sm-links > ul > li > button {
+  padding: 18px;
+  border: none;
+  font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  background: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  color: white;
+  border-radius: 8px;
+}

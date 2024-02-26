@@ -1,0 +1,32 @@
+.Faq{
+    background-color: #1f2937;
+   height: 80vh;
+}
+.Faqcontainer{
+    width: 70%;
+    margin: 0 auto;
+}
+.accordian{
+    text-align: center;
+  padding: 30px;
+    
+}
+.AccordianQuestion>h3{
+    color: rgba(255, 255, 255, 0.825);
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    line-height: 40px;
+    transition: all ease 5s;
+  
+}
+.answer{
+    color:color(srgb red green blue);
+    font-size: 22px;
+    text-align: justify;
+    margin: 22px 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite;
+    padding: 18px;
+    /* transition: all ease 5s; */
+}

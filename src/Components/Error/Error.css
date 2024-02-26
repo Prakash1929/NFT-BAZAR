@@ -1,0 +1,23 @@
+.error{
+   
+    background-color: #1f2937;
+    height: 78vh;
+}
+.CustomError>h1{
+    font-size: 72px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+}
+.CustomError>h3{
+    text-align: center;
+    font-size: 52px;
+    margin: 25px;
+    color: white;
+    text-transform: capitalize;
+}
+.CustomError>h3>a{
+    color: blue;
+    border-bottom: 1px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
